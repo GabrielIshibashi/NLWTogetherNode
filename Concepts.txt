@@ -1,0 +1,19 @@
+/**
+ * Tipos de parâmetros
+ * Routes Params => http://localhost:3000/produtos/34583798572 Aqui é literalmente o caminho da rota + id
+ * Query Param => htpp://localhost:3000/produtos?name=teclado&description=tecladobom Não são parâmetros obrigatórios
+ *  Query = busca 
+ * Body Params => {
+ *  "name" : "teclado"
+ *  "description" : "RGB"
+ * }
+ * Utilizamos para POST, PUT, PATCH; Exemplo arquivo JSON(API)
+ */
+
+ Migrations : Controle de versionamento de tabelas, elas são como um projeto de esqueleto a ser criado,
+ elas geram as tabelas. Se utilizasse novamente o "typeorm migration:run" ele pegaria desde a primeira migration
+ e construíria as tabelas novamente.
+
+ Constructor : Toda vez que colocamos o "new Classe", referenciamos as propriedades do constructor.
+
+ Repository : Ele faz a comunicação do nosso bancos de dados, ele tem os métodos para manipulação de banco de dados.
