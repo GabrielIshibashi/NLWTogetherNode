@@ -10,6 +10,8 @@ class User {
     @Column()
     name: string;
     @Column()
+    password: string;
+    @Column()
     email: string;
     @Column()
     admin: boolean;
